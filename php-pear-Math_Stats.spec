@@ -6,7 +6,7 @@
 Summary:	%{_class}_%{_subclass} - Classes to calculate statistical parameters
 Name:		php-pear-%{_pearname}
 Version:	0.9.0
-Release:	%mkrel 8
+Release:	%mkrel 9
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}beta3.tar.bz2
