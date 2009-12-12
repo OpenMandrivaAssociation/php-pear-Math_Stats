@@ -5,7 +5,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.9.0
-Release:	%mkrel 11
+Release:	%mkrel 12
 Summary:	Classes to calculate statistical parameters
 License:	PHP License
 Group:		Development/PHP
@@ -39,6 +39,8 @@ rm -rf %{buildroot}%{_datadir}/pear/.??*
 
 rm -rf %{buildroot}%{_datadir}/pear/docs
 rm -rf %{buildroot}%{_datadir}/pear/tests
+rm -rf %{buildroot}%{_datadir}/pear/%{_class}/examples
+rm -rf %{buildroot}%{_datadir}/pear/%{_class}/test
 
 install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
