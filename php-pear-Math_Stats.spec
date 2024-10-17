@@ -9,7 +9,7 @@ Release:	17
 Summary:	Classes to calculate statistical parameters
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Math_Stats/
+URL:		https://pear.php.net/package/Math_Stats/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}beta3.tar.bz2
 Requires(post): php-pear
 Requires(preun): php-pear
